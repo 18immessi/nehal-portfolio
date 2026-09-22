@@ -1,0 +1,14 @@
+Put your self-hosted MP4 video files in this folder.
+
+These are used for the portfolio cards marked data-type="video" in index.html
+(as opposed to data-type="youtube", which embeds directly from YouTube and
+doesn't need a file here).
+
+After adding a video file here, open index.html, find the matching project
+card (search for "ADD-YOUR-FILE.mp4") and change the data-src value to your
+file's name, e.g. data-src="assets/videos/my-reel.mp4"
+
+Keep file sizes reasonable for the web — a few MB to a few dozen MB per
+video is typical. Very large files will load slowly for visitors.
+
+You can delete this text file once you've added your own videos.

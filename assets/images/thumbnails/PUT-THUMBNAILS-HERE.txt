@@ -1,0 +1,11 @@
+Put your video thumbnail images in this folder.
+
+Recommended sizes:
+- Horizontal videos: 1280 x 720 (16:9), JPG or PNG
+- Vertical videos:   1080 x 1920 (9:16), JPG or PNG
+
+After adding an image here, open index.html, find the matching project card
+(search for "project-1.jpg", "project-2.jpg", etc.) and change that filename
+in the style="background-image:url('...')" part to your new file's name.
+
+You can delete this text file once you've added your own images.

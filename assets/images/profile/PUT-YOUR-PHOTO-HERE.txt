@@ -1,0 +1,13 @@
+Optional: put a profile photo here if you'd like one on the site.
+
+Recommended: a square-ish photo, at least 800 x 800px, JPG or PNG.
+
+To use it:
+1. Save your photo into this folder.
+2. Open index.html and find the "OPTIONAL PROFILE PHOTO" comment in the
+   About section.
+3. Delete the <div class="photo-placeholder">...</div> block.
+4. Uncomment the <img> line just above it and set src to your photo's
+   filename, e.g. src="assets/images/profile/nehal.jpg"
+
+You can delete this text file once you've added your own photo.
