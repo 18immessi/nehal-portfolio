@@ -3,39 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nehal Bhuttu — Freelance Video Editor | High-Retention Video Editing</title>
+  <meta name="description" content="Nehal Bhuttu is a freelance video editor creating fast-paced, high-retention videos for YouTubers, creators and brands. Editing in DaVinci Resolve, adaptable to any workflow.">
 
-  <title>Nehal Bhuttu — Video Editor & Creative</title>
-  <meta name="description" content="Nehal Bhuttu is a freelance video editor and creative working across YouTube, short-form content, motion graphics and story-driven video.">
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Nehal Bhuttu — Video Editor & Creative">
-  <meta property="og:description" content="Video editing, motion graphics and story-driven content for creators and brands.">
+  <!-- Open Graph (for link previews on social/Discord/etc.) -->
+  <meta property="og:title" content="Nehal Bhuttu — Freelance Video Editor">
+  <meta property="og:description" content="Fast-paced, high-retention video editing for YouTubers, creators and brands.">
   <meta property="og:type" content="website">
-
+  <meta property="og:image" content="assets/images/profile/og-image.jpg">
   <meta name="theme-color" content="#0B2419">
 
-  <!-- Favicon -->
+  <!-- Simple gold monogram favicon — no image file needed -->
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230B2419'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Georgia,serif' fill='%23C9A24B' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
 
-  <!-- Fonts -->
+  <!-- Fonts: Fraunces (editorial serif for display type) + Inter (clean sans for everything else) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500;1,9..144,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-  <!-- Accessibility -->
+  <!-- If JavaScript is unavailable, keep everything visible rather than stuck at opacity:0 -->
   <noscript>
-    <style>
-      .reveal,
-      .hero-item {
-        opacity: 1 !important;
-        transform: none !important;
-      }
-    </style>
+    <style>.reveal, .hero-item { opacity: 1 !important; transform: none !important; }</style>
   </noscript>
 
   <a href="#main" class="skip-link">Skip to main content</a>
@@ -43,7 +35,6 @@
   <!-- ============ HEADER / NAV ============ -->
   <header class="site-header" id="siteHeader">
     <div class="container header-inner">
-
       <a href="#hero" class="logo">Nehal Bhuttu</a>
 
       <nav class="nav-desktop" aria-label="Primary">
@@ -58,18 +49,9 @@
 
       <a href="#contact" class="btn btn-ghost nav-cta">Let's Talk</a>
 
-      <button
-        class="nav-toggle"
-        id="navToggle"
-        aria-label="Open menu"
-        aria-expanded="false"
-        aria-controls="mobileNav"
-      >
-        <span></span>
-        <span></span>
-        <span></span>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+        <span></span><span></span><span></span>
       </button>
-
     </div>
 
     <div class="mobile-nav" id="mobileNav">
@@ -83,543 +65,326 @@
     </div>
   </header>
 
-
   <main id="main">
 
     <!-- ============ HERO ============ -->
     <section class="hero" id="hero">
-
       <div class="hero-grain" aria-hidden="true"></div>
       <div class="hero-glow" aria-hidden="true"></div>
 
       <div class="container hero-inner">
-
         <h1 class="hero-name hero-item">Nehal Bhuttu</h1>
-
-        <p class="hero-role hero-item">
-          Editor. Storyteller. Creative.
-        </p>
-
-        <p class="hero-sub hero-item">
-          I turn raw footage into videos that feel impossible to scroll past —
-          from YouTube stories to short-form content, with a focus on pacing,
-          emotion and attention.
-        </p>
+        <p class="hero-role hero-item">Video Editor</p>
+        <p class="hero-sub hero-item">I edit fast-paced, high-retention videos for YouTubers, creators and brands — cut to hook attention early and hold it until the last frame.</p>
 
         <div class="hero-ctas hero-item">
           <a href="#work" class="btn btn-primary">View My Work</a>
           <a href="#contact" class="btn btn-outline">Let's Work Together</a>
         </div>
-
       </div>
 
       <a href="#about" class="scroll-cue" aria-label="Scroll to the About section">
         <span class="scroll-cue-line" aria-hidden="true"></span>
         <span>Scroll</span>
       </a>
-
     </section>
-
 
     <!-- ============ ABOUT ============ -->
     <section class="about" id="about">
-
       <div class="container about-grid">
 
+        <!--
+          OPTIONAL PROFILE PHOTO
+          1. Save a photo into assets/images/profile/
+          2. Delete the <div class="photo-placeholder">...</div> block below
+          3. Uncomment the <img> tag below and set the correct filename
+        -->
         <div class="about-media">
           <div class="photo-frame">
-
-            <!--
-              PROFILE PHOTO:
-              Upload your photo to:
-              assets/images/profile/
-
-              Then replace the placeholder below with:
-
-              <img
-                src="assets/images/profile/your-photo.jpg"
-                alt="Portrait of Nehal Bhuttu"
-                class="profile-photo"
-              >
-            -->
-
+            <!-- <img src="assets/images/profile/your-photo.jpg" alt="Portrait of Nehal Bhuttu" class="profile-photo"> -->
             <div class="photo-placeholder">
               <span>Your photo here</span>
               <small>assets/images/profile/</small>
             </div>
-
           </div>
         </div>
 
-
         <div class="about-content">
-
           <h2>Editing with intention.</h2>
-
-          <p class="about-text">
-            I've been editing for over three years, working with creators
-            and building videos across YouTube, short-form and social media.
-          </p>
-
-          <p class="about-quote">
-            It's never just about making a video look good — it's about the
-            hook, the pacing, the sound, the story and the feeling behind
-            every cut.
-          </p>
-
-          <p class="about-text">
-            My main tool is DaVinci Resolve, with a workflow that covers
-            editing, Fusion, motion graphics, sound design and colour.
-            I also adapt quickly to whatever a project needs.
-          </p>
-
+          <p class="about-text">I've been editing for over three years, working with YouTubers and Instagram creators to bring their ideas to life.</p>
+          <p class="about-quote">It's never just about making a video look good — it's about the hook, the pacing, the retention, the story. Every cut is a decision about whether someone keeps watching.</p>
+          <p class="about-text">My main tool is DaVinci Resolve, but I adapt quickly to whatever workflow — or software — a project needs.</p>
         </div>
 
       </div>
-
     </section>
-
 
     <!-- ============ WORK / PORTFOLIO ============ -->
     <section class="work" id="work">
-
       <div class="container">
-
         <div class="reveal">
-
-          <h2>Selected work.</h2>
-
-          <p class="section-intro">
-            A selection of long-form, short-form and creative editing work.
-            Each project focuses on pacing, storytelling and keeping the
-            viewer engaged.
-          </p>
-
+          <h2>Recent edits.</h2>
+          <p class="section-intro">A mix of long-form, short-form and vertical work. Replace these placeholder cards with your own projects — see the guide in <code>index.html</code> and the project README for exactly how.</p>
         </div>
-
 
         <div class="work-grid">
 
-
-          <!-- PROJECT 1 -->
+          <!-- ===== PROJECT 1 — Horizontal, YouTube embed ===== -->
+          <!--
+            HOW TO EDIT THIS CARD:
+            - data-type="youtube"  → keep this for a YouTube video
+            - data-src="ADD-YOUTUBE-ID" → replace with the 11-character ID from the YouTube URL
+              e.g. youtube.com/watch?v=dQw4w9WgXcQ → the ID is dQw4w9WgXcQ
+            - Background image → replace the first url() with your thumbnail image path
+            - Edit the title and description text below
+          -->
           <article class="video-card video-card--horizontal">
-
             <div class="video-card__frame">
-
-              <button
-                type="button"
-                class="video-card__media"
-               
-                data-type="youtube" data-src="OSfqVACiT_M"
+              <button type="button" class="video-card__media" data-type="youtube" data-src="ADD-YOUTUBE-ID"
                 style="background-image:url('assets/images/thumbnails/project-1.jpg'), linear-gradient(160deg, #17402C, #0B2419);"
-                aria-label="Play video: Sneak Peek"
-              >
-
+                aria-label="Play video: YouTube Video Essay">
                 <span class="video-card__tag">YouTube</span>
                 <span class="video-card__play" aria-hidden="true"></span>
-
               </button>
-
             </div>
-
             <div class="video-card__body">
-
-              <h3>YouTube Edit</h3>
-
-              <p>
-                Long-form editing focused on pacing, structure, sound design
-                and keeping the story moving from the opening hook to the end.
-              </p>
-
+              <h3>YouTube Video Essay</h3>
+              <p>Long-form YouTube edit — pacing, sound design and story structure for a creator's main channel.</p>
             </div>
-
           </article>
 
-
-          <!-- PROJECT 2 -->
+          <!-- ===== PROJECT 2 — Vertical, YouTube Shorts embed ===== -->
+          <!--
+            Vertical works the same as horizontal, just with data-src pointing to a
+            YouTube Shorts video ID, and the card keeps its --vertical class.
+          -->
           <article class="video-card video-card--vertical">
-
             <div class="video-card__frame">
-
-              <button
-                type="button"
-                class="video-card__media"
-                data-type="youtube"
-                data-src="ADD-YOUTUBE-ID"
+              <button type="button" class="video-card__media" data-type="youtube" data-src="ADD-YOUTUBE-ID"
                 style="background-image:url('assets/images/thumbnails/project-2.jpg'), linear-gradient(160deg, #1B4A33, #0B2419);"
-                aria-label="Play video: Short Form Edit"
-              >
-
+                aria-label="Play video: Short-Form Hook">
                 <span class="video-card__tag">Shorts</span>
                 <span class="video-card__play" aria-hidden="true"></span>
-
               </button>
-
             </div>
-
             <div class="video-card__body">
-
-              <h3>Short-Form Edit</h3>
-
-              <p>
-                Fast-paced vertical editing built around strong hooks,
-                clean captions, motion and retention-focused pacing.
-              </p>
-
+              <h3>Short-Form Hook</h3>
+              <p>Vertical short-form edit built for the first three seconds — fast cuts and a strong opening hook.</p>
             </div>
-
           </article>
 
-
-          <!-- PROJECT 3 -->
+          <!-- ===== PROJECT 3 — Vertical, MP4 file ===== -->
+          <!--
+            HOW TO EDIT THIS CARD:
+            - data-type="video" → keep this for a self-hosted MP4 file
+            - data-src="assets/videos/ADD-YOUR-FILE.mp4" → replace with your video's file path
+            - Good for Instagram Reels: export the reel as an MP4 and use it here
+          -->
           <article class="video-card video-card--vertical">
-
             <div class="video-card__frame">
-
-              <button
-                type="button"
-                class="video-card__media"
-                data-type="video"
-                data-src="assets/videos/ADD-YOUR-FILE.mp4"
+              <button type="button" class="video-card__media" data-type="video" data-src="assets/videos/ADD-YOUR-FILE.mp4"
                 style="background-image:url('assets/images/thumbnails/project-3.jpg'), linear-gradient(160deg, #16382A, #0B2419);"
-                aria-label="Play video: Motion Graphics Edit"
-              >
-
-                <span class="video-card__tag">Motion</span>
+                aria-label="Play video: Reel Edit">
+                <span class="video-card__tag">Reel</span>
                 <span class="video-card__play" aria-hidden="true"></span>
-
               </button>
-
             </div>
-
             <div class="video-card__body">
-
-              <h3>Motion Graphics Edit</h3>
-
-              <p>
-                Short-form creative combining editing, motion graphics,
-                typography and sound design to make information feel visual.
-              </p>
-
+              <h3>Reel Edit</h3>
+              <p>Instagram Reels-style vertical edit — trend-aware cutting with captions and motion text.</p>
             </div>
-
           </article>
 
-
-          <!-- PROJECT 4 -->
+          <!-- ===== PROJECT 4 — Horizontal, MP4 file ===== -->
           <article class="video-card video-card--horizontal">
-
             <div class="video-card__frame">
-
-              <button
-                type="button"
-                class="video-card__media"
-                data-type="video"
-                data-src="assets/videos/ADD-YOUR-FILE.mp4"
+              <button type="button" class="video-card__media" data-type="video" data-src="assets/videos/ADD-YOUR-FILE.mp4"
                 style="background-image:url('assets/images/thumbnails/project-4.jpg'), linear-gradient(160deg, #1E4E36, #0B2419);"
-                aria-label="Play video: Creative Edit"
-              >
-
-                <span class="video-card__tag">Creative</span>
+                aria-label="Play video: Brand Campaign Cut">
+                <span class="video-card__tag">Brand</span>
                 <span class="video-card__play" aria-hidden="true"></span>
-
               </button>
-
             </div>
-
             <div class="video-card__body">
-
-              <h3>Creative Edit</h3>
-
-              <p>
-                A more cinematic approach to editing with custom transitions,
-                sound design, colour and visual storytelling.
-              </p>
-
+              <h3>Brand Campaign Cut</h3>
+              <p>Horizontal brand edit — self-hosted MP4, colour graded with motion graphics for key callouts.</p>
             </div>
-
           </article>
 
-
-          <!-- PROJECT 5 -->
+          <!-- ===== PROJECT 5 — Horizontal, YouTube embed ===== -->
           <article class="video-card video-card--horizontal">
-
             <div class="video-card__frame">
-
-              <button
-                type="button"
-                class="video-card__media"
-                data-type="youtube"
-                data-src="ADD-YOUTUBE-ID"
+              <button type="button" class="video-card__media" data-type="youtube" data-src="ADD-YOUTUBE-ID"
                 style="background-image:url('assets/images/thumbnails/project-5.jpg'), linear-gradient(160deg, #143526, #0B2419);"
-                aria-label="Play video: Interview Edit"
-              >
-
-                <span class="video-card__tag">Interview</span>
+                aria-label="Play video: Podcast Highlight Edit">
+                <span class="video-card__tag">YouTube</span>
                 <span class="video-card__play" aria-hidden="true"></span>
-
               </button>
-
             </div>
-
             <div class="video-card__body">
-
-              <h3>Interview Edit</h3>
-
-              <p>
-                Interview-driven editing with clean pacing, reframing,
-                captions and visual moments designed to keep conversations engaging.
-              </p>
-
+              <h3>Podcast Highlight Edit</h3>
+              <p>Multi-cam podcast clip edited for retention — captions, reframing and pacing for a YouTube audience.</p>
             </div>
-
           </article>
 
-
-          <!-- PROJECT 6 -->
+          <!-- ===== PROJECT 6 — Vertical, MP4 file ===== -->
           <article class="video-card video-card--vertical">
-
             <div class="video-card__frame">
-
-              <button
-                type="button"
-                class="video-card__media"
-                data-type="video"
-                data-src="assets/videos/ADD-YOUR-FILE.mp4"
+              <button type="button" class="video-card__media" data-type="video" data-src="assets/videos/ADD-YOUR-FILE.mp4"
                 style="background-image:url('assets/images/thumbnails/project-6.jpg'), linear-gradient(160deg, #19402C, #0B2419);"
-                aria-label="Play video: Story Driven Edit"
-              >
-
-                <span class="video-card__tag">Story</span>
+                aria-label="Play video: Story-Driven Short">
+                <span class="video-card__tag">Vertical</span>
                 <span class="video-card__play" aria-hidden="true"></span>
-
               </button>
-
             </div>
-
             <div class="video-card__body">
-
-              <h3>Story-Driven Edit</h3>
-
-              <p>
-                Narrative-focused editing where sound, pacing and visual
-                rhythm work together to build a stronger emotional payoff.
-              </p>
-
+              <h3>Story-Driven Short</h3>
+              <p>Narrative-style vertical edit — sound design and pacing built to hold attention to the final beat.</p>
             </div>
-
           </article>
 
+          <!-- To add another project: copy one whole <article class="video-card ..."> block and edit it -->
 
         </div>
-
       </div>
-
     </section>
-
 
     <!-- ============ SKILLS ============ -->
     <section class="skills" id="skills">
-
       <div class="container">
-
         <div class="reveal">
           <h2>What I bring to an edit.</h2>
         </div>
 
+        <!--
+          Each button opens the gallery modal for that skill. To add or edit
+          the images/description shown for a skill, edit js/skills-data.js —
+          you shouldn't need to touch this list itself unless you're adding
+          a brand new skill (in which case, add a matching entry to
+          skills-data.js with the same "data-skill" id).
+        -->
         <ul class="skills-list">
-          <li>Video Editing</li>
-          <li>Motion Graphics</li>
-          <li>DaVinci Resolve &amp; Fusion</li>
-          <li>Short-Form Content</li>
-          <li>YouTube Editing</li>
-          <li>Storytelling</li>
-          <li>Sound Design</li>
-          <li>Colour Grading</li>
-          <li>Captions &amp; Subtitles</li>
-          <li>Retention-Focused Editing</li>
+          <li><button type="button" class="skill-item" data-skill="video-editing"><span class="skill-item__label">Video Editing</span><span class="skill-item__indicator" aria-hidden="true"></span></button></li>
+          <li><button type="button" class="skill-item" data-skill="motion-graphics"><span class="skill-item__label">Motion Graphics</span><span class="skill-item__indicator" aria-hidden="true"></span></button></li>
+          <li><button type="button" class="skill-item" data-skill="davinci-resolve-fusion"><span class="skill-item__label">DaVinci Resolve &amp; Fusion</span><span class="skill-item__indicator" aria-hidden="true"></span></button></li>
+          <li><button type="button" class="skill-item" data-skill="short-form-content"><span class="skill-item__label">Short-Form Content</span><span class="skill-item__indicator" aria-hidden="true"></span></button></li>
+          <li><button type="button" class="skill-item" data-skill="youtube-editing"><span class="skill-item__label">YouTube Editing</span><span class="skill-item__indicator" aria-hidden="true"></span></button></li>
+          <li><button type="button" class="skill-item" data-skill="storytelling"><span class="skill-item__label">Storytelling</span><span class="skill-item__indicator" aria-hidden="true"></span></button></li>
+          <li><button type="button" class="skill-item" data-skill="sound-design"><span class="skill-item__label">Sound Design</span><span class="skill-item__indicator" aria-hidden="true"></span></button></li>
+          <li><button type="button" class="skill-item" data-skill="colour-grading"><span class="skill-item__label">Colour Grading</span><span class="skill-item__indicator" aria-hidden="true"></span></button></li>
+          <li><button type="button" class="skill-item" data-skill="captions-subtitles"><span class="skill-item__label">Captions &amp; Subtitles</span><span class="skill-item__indicator" aria-hidden="true"></span></button></li>
+          <li><button type="button" class="skill-item" data-skill="retention-focused-editing"><span class="skill-item__label">Retention-Focused Editing</span><span class="skill-item__indicator" aria-hidden="true"></span></button></li>
         </ul>
-
       </div>
-
     </section>
-
 
     <!-- ============ EXPERIENCE ============ -->
     <section class="experience" id="experience">
-
       <div class="container">
-
         <div class="reveal">
-
-          <h2>Experience.</h2>
-
-          <p class="section-intro">
-            Selected work and collaborations across creator content,
-            interviews and social video.
-          </p>
-
+          <h2>Client history.</h2>
+          <p class="section-intro">This section is ready for client and project details as they come in.</p>
         </div>
 
-
+        <!-- Copy one <li class="experience-item"> block per client/project and edit the text -->
         <ul class="experience-list">
-
-
-          <!-- EXPERIENCE 1 -->
           <li class="experience-item">
-
-            <div class="experience-year">2026</div>
-
+            <div class="experience-year">Year</div>
             <div class="experience-main">
-
-              <h3>Professional Footballer</h3>
-
-              <p class="experience-role">
-                Video Editor &amp; Post-Production
-              </p>
-
-              <p class="experience-desc">
-                Edited interview content and crafted story-driven pieces for 
-                a professional footballer's website and digital presence, shaping 
-                raw conversations into engaging, polished stories.
-              </p>
-
+              <h3>[Client or project name]</h3>
+              <p class="experience-role">[Type of work — e.g. YouTube series editing]</p>
+              <p class="experience-desc">[Short description of the project and what you did.]</p>
             </div>
-
           </li>
-
-
-          <!-- EXPERIENCE 2 -->
           <li class="experience-item">
-
-            <div class="experience-year">2025–Present</div>
-
+            <div class="experience-year">Year</div>
             <div class="experience-main">
-
-              <h3>Independent Creator Work</h3>
-
-              <p class="experience-role">
-                Freelance Video Editor
-              </p>
-
-              <p class="experience-desc">
-                Working with creators on YouTube and social content, with a
-                focus on pacing, hooks, storytelling, motion graphics and
-                retention.
-              </p>
-
+              <h3>[Client or project name]</h3>
+              <p class="experience-role">[Type of work]</p>
+              <p class="experience-desc">[Short description of the project and what you did.]</p>
             </div>
-
           </li>
-
-
-          <!-- EXPERIENCE 3 -->
           <li class="experience-item">
-
-            <div class="experience-year">3+ Years</div>
-
+            <div class="experience-year">Year</div>
             <div class="experience-main">
-
-              <h3>Video Editing</h3>
-
-              <p class="experience-role">
-                Editing &amp; Creative Post-Production
-              </p>
-
-              <p class="experience-desc">
-                Developing editing skills across long-form videos, short-form
-                content, motion graphics, sound design, colour and visual storytelling.
-              </p>
-
+              <h3>[Client or project name]</h3>
+              <p class="experience-role">[Type of work]</p>
+              <p class="experience-desc">[Short description of the project and what you did.]</p>
             </div>
-
           </li>
-
-
         </ul>
-
       </div>
-
     </section>
-
 
     <!-- ============ CONTACT ============ -->
     <section class="contact" id="contact">
-
       <div class="container contact-inner">
-
         <div class="reveal">
-
           <h2>Have a video that needs an edit?</h2>
-
-          <p class="section-intro">
-            Tell me what you're working on, what you need, and what you're
-            trying to achieve. Let's make something worth watching.
-          </p>
-
+          <p class="section-intro">Send the brief, the deadline, and a link to your footage or references — I'll take it from there.</p>
         </div>
 
+        <!-- Replace with your real email -->
+        <a href="mailto:hello@nehalbhuttu.com" class="btn btn-primary btn-large">hello@nehalbhuttu.com</a>
 
-        <!--
-          CONTACT:
-          Replace this email with your real email address when ready.
-        -->
-
-        <a
-          href="mailto:nehalatjmi@gmail.com"
-          class="btn btn-primary btn-large"
-        >
-          nehalatjmi@gmail.com
-        </a>
-
-
-        <!--
-          SOCIAL LINKS:
-          Replace the placeholder URLs with your real profiles.
-        -->
-
+        <!-- Replace each href with your real profile link -->
         <ul class="contact-links">
-
-          <li>
-            <a
-              href="https://www.instagram.com/18_mbappe/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Instagram
-            </a>
-          </li>
-
-        
-
+          <li><a href="https://instagram.com/yourhandle" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li><a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://youtube.com/@yourchannel" target="_blank" rel="noopener noreferrer">YouTube</a></li>
         </ul>
-
       </div>
-
     </section>
 
   </main>
 
-
   <!-- ============ FOOTER ============ -->
   <footer class="site-footer">
-
     <div class="container footer-inner">
-
-      <p>
-        &copy; <span id="year">2026</span> Nehal Bhuttu
-      </p>
-
-      <a href="#hero" class="footer-top">
-        Back to top
-      </a>
-
+      <p>&copy; <span id="year">2026</span> Nehal Bhuttu</p>
+      <a href="#hero" class="footer-top">Back to top</a>
     </div>
-
   </footer>
 
+  <!-- ============ SKILL GALLERY MODAL ============
+       One shared modal, reused for every skill. Its content (title,
+       description, 6 images) is filled in by JavaScript from
+       js/skills-data.js whenever a skill button is clicked — nothing here
+       needs to be duplicated per skill. -->
+  <div class="skill-modal" id="skillModal" aria-hidden="true">
+    <div class="skill-modal__overlay" data-modal-close></div>
 
+    <div class="skill-modal__panel" role="dialog" aria-modal="true" aria-labelledby="skillModalTitle" tabindex="-1">
+      <button type="button" class="skill-modal__close" data-modal-close aria-label="Close gallery">
+        <span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+
+      <div class="skill-modal__header">
+        <h3 id="skillModalTitle"></h3>
+        <p id="skillModalDesc"></p>
+      </div>
+
+      <div class="skill-modal__main">
+        <button type="button" class="skill-modal__nav skill-modal__nav--prev" id="skillModalPrev" aria-label="Previous image">
+          <span aria-hidden="true"></span>
+        </button>
+
+        <div class="skill-modal__mainimage" id="skillModalMainWrap">
+          <img id="skillModalMainImg" alt="">
+        </div>
+
+        <button type="button" class="skill-modal__nav skill-modal__nav--next" id="skillModalNext" aria-label="Next image">
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+
+      <p class="skill-modal__caption" id="skillModalCaption"></p>
+
+      <div class="skill-modal__thumbs" id="skillModalThumbs"></div>
+    </div>
+  </div>
+
+  <script src="js/skills-data.js"></script>
   <script src="js/main.js"></script>
-
 </body>
 </html>

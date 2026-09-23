@@ -1,0 +1,34 @@
+Put your skill gallery screenshots in this folder.
+
+Each skill needs 6 images, named to match its id followed by -1 through -6.
+For example, for "Video Editing" (id: video-editing):
+
+  video-editing-1.jpg
+  video-editing-2.jpg
+  video-editing-3.jpg
+  video-editing-4.jpg
+  video-editing-5.jpg
+  video-editing-6.jpg
+
+The full list of expected filenames (60 total, 6 per skill):
+
+  video-editing-1.jpg  ... video-editing-6.jpg
+  motion-graphics-1.jpg  ... motion-graphics-6.jpg
+  davinci-resolve-fusion-1.jpg  ... davinci-resolve-fusion-6.jpg
+  short-form-content-1.jpg  ... short-form-content-6.jpg
+  youtube-editing-1.jpg  ... youtube-editing-6.jpg
+  storytelling-1.jpg  ... storytelling-6.jpg
+  sound-design-1.jpg  ... sound-design-6.jpg
+  colour-grading-1.jpg  ... colour-grading-6.jpg
+  captions-subtitles-1.jpg  ... captions-subtitles-6.jpg
+  retention-focused-editing-1.jpg  ... retention-focused-editing-6.jpg
+
+You don't need to add them all at once — any slot without a matching file
+just shows a plain placeholder tile in the gallery instead of a broken
+image, so it's safe to fill these in gradually.
+
+.jpg is just what's in js/skills-data.js by default. If you'd rather use
+.png or .webp, open js/skills-data.js and change the file extension on the
+relevant "src" lines to match.
+
+You can delete this text file once you've added your own screenshots.
